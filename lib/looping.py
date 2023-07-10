@@ -5,7 +5,7 @@ def happy_new_year():
     while count_down > 0:
         print(f"{count_down} ")
         count_down -= 1
-    print("\n")
+    print("Happy New Year!\n")
 
 def square_integers(int_list):
     int_list = [ squint * squint for squint in int_list]
